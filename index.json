@@ -1,0 +1,433 @@
+{
+ "version": 3,
+ "indexPages": [
+  "index.html"
+ ],
+ "files": [
+  {
+   "path": "index.json"
+  },
+  {
+   "path": "index.dat"
+  },
+  {
+   "path": "index.rdf"
+  },
+  {
+   "path": "history.rdf"
+  },
+  {
+   "path": "^metadata^"
+  },
+  {
+   "path": "index.html",
+   "url": "https://everixedge.com/",
+   "role": "document",
+   "token": "e714a6ae76f5b551d7f2ddbff411a87291514875"
+  },
+  {
+   "path": "index.xhtml",
+   "role": "document"
+  },
+  {
+   "path": "index.svg",
+   "role": "document"
+  },
+  {
+   "path": "css.css",
+   "url": "https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900&display=swap",
+   "role": "css",
+   "token": "0660c0c00659ac1739a635b8abeb062f1c5a0b08"
+  },
+  {
+   "path": "intlTelInput.css",
+   "url": "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/css/intlTelInput.css",
+   "role": "css",
+   "token": "21a9928ec8dd2156c2161c26e97bb93f05b60e55"
+  },
+  {
+   "path": "logo.svg",
+   "url": "https://everixedge.com/assets/img/logo.svg",
+   "role": "resource",
+   "token": "c86c96a2c1ddb15a2cbab9c7c8099541f6cf77b9"
+  },
+  {
+   "path": "favicon-32x32.png",
+   "url": "https://everixedge.com/assets/img/favicon-32x32.png",
+   "role": "resource",
+   "token": "01e04ba06f14ddf0fd61c9af650234bfa9c4cd4e"
+  },
+  {
+   "path": "check-icon.png",
+   "url": "https://everixedge.com/assets/img/form/check-icon.png",
+   "role": "resource",
+   "token": "850283305756a530fb8043edb56a68add7761a38"
+  },
+  {
+   "path": "img-2.webp",
+   "url": "https://everixedge.com/assets/img/img-2.webp",
+   "role": "resource",
+   "token": "02c2c7e52532f885d400edc3733b5ca22290a494"
+  },
+  {
+   "path": "icon-3.svg",
+   "url": "https://everixedge.com/assets/img/icon-3.svg",
+   "role": "resource",
+   "token": "419d7d676d27ed6844f589746b974f638cc90ee9"
+  },
+  {
+   "path": "icon-1.svg",
+   "url": "https://everixedge.com/assets/img/icon-1.svg",
+   "role": "resource",
+   "token": "72c506c7d96d833b127bccb6f82227047142d994"
+  },
+  {
+   "path": "icon-2.svg",
+   "url": "https://everixedge.com/assets/img/icon-2.svg",
+   "role": "resource",
+   "token": "cb666a727fa524f3feff34d105d52d88d64e8af9"
+  },
+  {
+   "path": "icon-5.svg",
+   "url": "https://everixedge.com/assets/img/icon-5.svg",
+   "role": "resource",
+   "token": "f6f63b10bff7e10302a84120acd2cc347354c6f4"
+  },
+  {
+   "path": "icon-7.svg",
+   "url": "https://everixedge.com/assets/img/icon-7.svg",
+   "role": "resource",
+   "token": "c2f7d2671373da4e57edb1c12028aefcadc3c34b"
+  },
+  {
+   "path": "icon-4.svg",
+   "url": "https://everixedge.com/assets/img/icon-4.svg",
+   "role": "resource",
+   "token": "7b10857c4213b1b8d7cf53feba372c255e9f4b90"
+  },
+  {
+   "path": "img-1.svg",
+   "url": "https://everixedge.com/assets/img/img-1.svg",
+   "role": "resource",
+   "token": "04f5c87b35dee598afb579eef2a5ba90274d3b66"
+  },
+  {
+   "path": "icon-6.svg",
+   "url": "https://everixedge.com/assets/img/icon-6.svg",
+   "role": "resource",
+   "token": "7045a372a67c5762e9fef70b1dfd142568e84e94"
+  },
+  {
+   "path": "img-3.webp",
+   "url": "https://everixedge.com/assets/img/img-3.webp",
+   "role": "resource",
+   "token": "3660563e7efc077fa58bedb97412be48142a6504"
+  },
+  {
+   "path": "icon-8.svg",
+   "url": "https://everixedge.com/assets/img/icon-8.svg",
+   "role": "resource",
+   "token": "9bea7d898fd364da367dc5691d1e5d3aa3d26af6"
+  },
+  {
+   "path": "icon-9.svg",
+   "url": "https://everixedge.com/assets/img/icon-9.svg",
+   "role": "resource",
+   "token": "584dd6c8d3f4bc8515b4fdb9928da268772c7300"
+  },
+  {
+   "path": "icon-10.svg",
+   "url": "https://everixedge.com/assets/img/icon-10.svg",
+   "role": "resource",
+   "token": "aba6d1e4b2ca4891c2d996804439e4a97deebc23"
+  },
+  {
+   "path": "icon-12.svg",
+   "url": "https://everixedge.com/assets/img/icon-12.svg",
+   "role": "resource",
+   "token": "a7ed24b6bd3bbbb4be60ac1e098172790b220e4a"
+  },
+  {
+   "path": "money.svg",
+   "url": "https://everixedge.com/assets/img/money.svg",
+   "role": "resource",
+   "token": "825fccb84d05ebbea3d04f4d7b1dd381d174ff00"
+  },
+  {
+   "path": "mob-desc.svg",
+   "url": "https://everixedge.com/assets/img/mob-desc.svg",
+   "role": "resource",
+   "token": "9717714da94cb32baa73337579c58a57d06fe434"
+  },
+  {
+   "path": "trading-assets.svg",
+   "url": "https://everixedge.com/assets/img/trading-assets.svg",
+   "role": "resource",
+   "token": "925b0ff5bf8e4b0e8c29b529a63918e5b5b63ee0"
+  },
+  {
+   "path": "fees.svg",
+   "url": "https://everixedge.com/assets/img/fees.svg",
+   "role": "resource",
+   "token": "fe6ef1d11f3b3861d76f71b3b06a265a9087eebd"
+  },
+  {
+   "path": "payments.svg",
+   "url": "https://everixedge.com/assets/img/payments.svg",
+   "role": "resource",
+   "token": "615a47735d507b64ea4cf2eaeefab8d826753fe8"
+  },
+  {
+   "path": "countries.svg",
+   "url": "https://everixedge.com/assets/img/countries.svg",
+   "role": "resource",
+   "token": "c4d64425946b345873e743d06adb24baebfe3d74"
+  },
+  {
+   "path": "intlTelInput.min.js",
+   "url": "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/intlTelInput.min.js",
+   "role": "resource",
+   "token": "0197850dbee378d21f20079d6c3c07a5e1e6af34"
+  },
+  {
+   "path": "main.js",
+   "url": "https://everixedge.com/assets/js/main.js",
+   "role": "resource",
+   "token": "19eaa2da4e3e83167ae0f901004b012dd58ceca4"
+  },
+  {
+   "path": "utils.js",
+   "url": "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/utils.js",
+   "role": "resource",
+   "token": "203aae09e730ae780d36159790134a3e4ccfb784"
+  },
+  {
+   "path": "UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7W0Q5n-wU.woff2",
+   "url": "https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7W0Q5n-wU.woff2",
+   "role": "resource",
+   "token": "b1d27a070376f785112bd728edb0eaf927566cd2"
+  },
+  {
+   "path": "UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7W0Q5n-wU.woff2",
+   "url": "https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7W0Q5n-wU.woff2",
+   "role": "resource",
+   "token": "2f559e688e2273be02cf53fa0e9b45dc034a2c74"
+  },
+  {
+   "path": "UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1pL7W0Q5n-wU.woff2",
+   "url": "https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1pL7W0Q5n-wU.woff2",
+   "role": "resource",
+   "token": "c0e6adc121662178056a06d7275bfc56610e02b9"
+  },
+  {
+   "path": "UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2ZL7W0Q5n-wU.woff2",
+   "url": "https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2ZL7W0Q5n-wU.woff2",
+   "role": "resource",
+   "token": "4b7849248e1bd61aac2f9a6ee2d9a7826e120459"
+  },
+  {
+   "path": "UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2pL7W0Q5n-wU.woff2",
+   "url": "https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2pL7W0Q5n-wU.woff2",
+   "role": "resource",
+   "token": "7494b00dc3a7a3efe98e75f6a4826c6dd013208d"
+  },
+  {
+   "path": "UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7W0Q5n-wU.woff2",
+   "url": "https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7W0Q5n-wU.woff2",
+   "role": "resource",
+   "token": "6bdf148ddec4f1a830fef770f0c109cf4d71e319"
+  },
+  {
+   "path": "UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7W0Q5nw.woff2",
+   "url": "https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7W0Q5nw.woff2",
+   "role": "resource",
+   "token": "c6b122b484c29b1fbcee7f76ddf000f3b3f672e8"
+  },
+  {
+   "path": "flags.png",
+   "url": "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/img/flags.png?1",
+   "role": "resource",
+   "token": "a4a9a7803c85fa8fb3c7442ce7bbacf7f8d03107"
+  },
+  {
+   "path": "flags@2x.png",
+   "url": "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/img/flags@2x.png?1",
+   "role": "resource",
+   "token": "1798050054d35a5c020975bf8b024ca6b5d0cdc9"
+  },
+  {
+   "path": "style-min.css",
+   "url": "https://everixedge.com/assets/css/style-min.css",
+   "role": "css",
+   "token": "b7984532a6dc9c0a13e434d83490649be5705a55"
+  },
+  {
+   "path": "bg_2x.webp",
+   "url": "https://everixedge.com/assets/img/bg_2x.webp",
+   "role": "resource",
+   "token": "a10b1fce05c2724bd82082cd491c09951db87c9d"
+  },
+  {
+   "path": "icon-open.svg",
+   "url": "https://everixedge.com/assets/img/icon-open.svg",
+   "role": "resource",
+   "token": "6c58e316553e7a1d9ef37fcd9f4a050d89161575"
+  },
+  {
+   "path": "loader.svg",
+   "url": "https://everixedge.com/assets/img/loader.svg",
+   "role": "resource",
+   "token": "ba3cd5320167e44fc6a3a928218c93d7888afb24"
+  },
+  {
+   "path": "direction-down.svg",
+   "url": "https://everixedge.com/assets/img/direction-down.svg",
+   "role": "resource",
+   "token": "6c3358108aab413c9ed54bf6f76015fc55ffc12c"
+  },
+  {
+   "path": "bg.webp",
+   "url": "https://everixedge.com/assets/img/bg.webp",
+   "role": "resource",
+   "token": "8f527c9ff3bc1919f3b1bed9742b28a3b1c89a06"
+  },
+  {
+   "path": "_.html",
+   "url": "https://everixedge.com/dk/",
+   "role": "document",
+   "token": "de56cc42163208d1619f10c605d3fe5dc562fbbd"
+  },
+  {
+   "path": "email-decode.min.js",
+   "url": "https://everixedge.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+   "role": "resource",
+   "token": "af1ddd38b8905a7968b553d1192dae6c72695cea"
+  },
+  {
+   "path": "_-1.html",
+   "url": "https://everixedge.com/de/",
+   "role": "document",
+   "token": "e37e4266e6de0dc7b4cf9219852a6532b0f44417"
+  },
+  {
+   "path": "_-2.html",
+   "url": "https://everixedge.com/cz/",
+   "role": "document",
+   "token": "8b377d51c978bb69489ec2d023bece29330418fc"
+  },
+  {
+   "path": "_-3.html",
+   "url": "https://everixedge.com/es/",
+   "role": "document",
+   "token": "bf008c4892cccf1f3784e04ea8b03738ebbb7cae"
+  },
+  {
+   "path": "_-4.html",
+   "url": "https://everixedge.com/fi/",
+   "role": "document",
+   "token": "b99b5838c2e20dcce12d2fc57c86561387a2356d"
+  },
+  {
+   "path": "_-5.html",
+   "url": "https://everixedge.com/fr/",
+   "role": "document",
+   "token": "e1714818e1df857958ce0317c0f14c63385404e8"
+  },
+  {
+   "path": "_-6.html",
+   "url": "https://everixedge.com/gr/",
+   "role": "document",
+   "token": "5b750f471691261c3c331e9cdc10a036c4627f9c"
+  },
+  {
+   "path": "_-7.html",
+   "url": "https://everixedge.com/it/",
+   "role": "document",
+   "token": "05630a3c17dcbfae67624d02ba8d1096a8488c88"
+  },
+  {
+   "path": "_-8.html",
+   "url": "https://everixedge.com/hu/",
+   "role": "document",
+   "token": "99048e77e7a1402b0b342fe00ea1ed2098dc847a"
+  },
+  {
+   "path": "_-9.html",
+   "url": "https://everixedge.com/nl/",
+   "role": "document",
+   "token": "81595944bb4fcce4afd34f1656db41f008a8bd1b"
+  },
+  {
+   "path": "_-10.html",
+   "url": "https://everixedge.com/no/",
+   "role": "document",
+   "token": "7e5ca22e96838e6ad6e80e071e04cb5f00b405ec"
+  },
+  {
+   "path": "_-11.html",
+   "url": "https://everixedge.com/pl/",
+   "role": "document",
+   "token": "84c373ac713f99eb7bb29984914431cf2b012bcc"
+  },
+  {
+   "path": "_-12.html",
+   "url": "https://everixedge.com/pt/",
+   "role": "document",
+   "token": "5142b6fda815f93b9787e1c35ab2956b08f2aa9d"
+  },
+  {
+   "path": "_-13.html",
+   "url": "https://everixedge.com/ru/",
+   "role": "document",
+   "token": "1d0bfbc20390084ef9007c740fd5a99f9ce5e731"
+  },
+  {
+   "path": "_-14.html",
+   "url": "https://everixedge.com/se/",
+   "role": "document",
+   "token": "6c972ab3fa6e9daf87622fc140fc67d6999d9ef6"
+  },
+  {
+   "path": "_-15.html",
+   "url": "https://everixedge.com/about/",
+   "role": "document",
+   "token": "8ad76716c9602596d490a949b576c97a09c87c71"
+  },
+  {
+   "path": "about.webp",
+   "url": "https://everixedge.com/assets/img/about.webp",
+   "role": "resource",
+   "token": "1eb194e7b32341ceef3c072266fdb5fd8e153251"
+  },
+  {
+   "path": "img-4.webp",
+   "url": "https://everixedge.com/assets/img/img-4.webp",
+   "role": "resource",
+   "token": "ebaca76ff268731ec2cc21be97ff8a642a149742"
+  },
+  {
+   "path": "_-16.html",
+   "url": "https://everixedge.com/contact/",
+   "role": "document",
+   "token": "12d52154af6c0b2cbbbe3c01eab8a8f50e57674b"
+  },
+  {
+   "path": "_-17.html",
+   "url": "https://everixedge.com/login/",
+   "role": "document",
+   "token": "7ee26afef254878cbb05bc411b6082e5c1516ea1"
+  },
+  {
+   "path": "_-18.html",
+   "url": "https://everixedge.com/privacy-policy/",
+   "role": "document",
+   "token": "386ca19ae5eb6712709099715ad9597111d93a2b"
+  },
+  {
+   "path": "_-19.html",
+   "url": "https://everixedge.com/terms/",
+   "role": "document",
+   "token": "8670f1c0ee1ce91cef2e0a98ff3d94841d0cb781"
+  }
+ ]
+}
