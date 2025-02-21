@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NetherexPro™ | Official 2024 Update </title>
+    <title>NetherexPro | Official 2025 Update </title>
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://mysite.com/page123">
     <meta property="og:title" content="NetherexPro">
     <meta property="og:description" content="Invest in the Wild Frontier of Crypto and Trade with All the Tools You Need">
     <meta property="og:image" content="https://mysite.com/img-3.webp">
+
 
     <meta name="description" content="Invest in the Wild Frontier of Crypto and Trade with All the Tools You Need">
     <meta name="keywords" content="">
@@ -42,7 +43,7 @@
     <div class="bg">
         <header class="header">
             <div class="container flex-bl">
-                <a href="/" class="logo"><img src="assets/logo.webp" alt=""></a>
+                <a href="/" class="logo"><img src="assets/logo.svg" alt=""></a>
                 <div class="language">
                     <a id="toggle" class="menu__link stop_hover"><div class="iti__flag iti__gb"></div>En</a>
                     <ul class="submenu">
@@ -241,8 +242,8 @@
                 <h2 class="title-2 semibold">Why Trade with <br><i class="italic">NetherexPro?</i></h2>
                 <p style="font-size: 15px;">Whenever you choose a trading platform, you want to know that your money was put in a safe and secure place that will continue growing over time. You can’t underestimate the value of a trustworthy platform that guards your money. NetherexPro seeks to secure your Bitcoin, but it will also help you to make efficient trades and streamline the process as much as possible to make the platform more hassle-free than others.</p>
                 <div class="buttons">
-                    <button class="get-started">Get Started <span></span></button>
-                    <button class="contact-us">Contact Us</button>
+                    <a href="#"><button class="get-started">Get Started <span></span></button></a>
+                    <a href="/contact/"><button class="contact-us">Contact Us</button></a>
                 </div>
             </div>
             <div class="right">
@@ -372,11 +373,11 @@
             <div class="left-section">
                 <h2>FAQ's</h2>
                 <p>Something in mind? Contact us by email</p>
-                <span class="email">support@netherexpro.com</span>
+                <a href="" class="accent mail-link"><span class="email domain">support@netherexpro.com</span></a>
                     
                 <div class="faq_buttons">
-                    <button class="faq_get-started">Get Started <span></span></button>
-                    <button class="faq_contact-us">Contact Us</button>
+                    <a href="#"><button class="faq_get-started">Get Started <span></span></button></a>
+                    <a href="/contact/"><button class="faq_contact-us">Contact Us</button></a>
                 </div>
 
                 <div class="stats_sec">
@@ -456,7 +457,8 @@
         <div class="footer-bottom">
             <div class="container">
                 <div class="flex-bl">
-                    <div class="copyright">© Cryptocurrency & Blockchain 2024. All Rights Reserved.</div>
+                    <!-- <a href="/" class="logo logo_mobile"><img src="../assets/footer_logo.svg" alt=""></a> -->
+                    <a href="/" class="logo"><img src="assets/footer_logo.svg" alt=""></a>
                         
                     <div class="footer_center">
                         <a href="/terms/">Terms</a>
@@ -592,12 +594,14 @@
 
       form.addEventListener('submit', function (event) {
 
+        // Виконайте валідацію для всіх полів вводу
         inputs.forEach(input => validateInput(input));
 
         const hasErrors = Object.values(errors).some(error => error);
 
         if (hasErrors) {
         event.preventDefault();
+          // Якщо є помилки, змініть стилі невалідних інпутів після надсилання форми
           inputs.forEach(input => {
             const fieldName = input.getAttribute('name');
             if (errors[fieldName]) {
@@ -605,7 +609,9 @@
             }
           });
         } else {
+          // Якщо немає помилок, відправте форму
 
+          // Виводим Loader SVG
           var loaderWrapper = document.querySelector('.form__wrapper-loader');
           if (loaderWrapper) {
             loaderWrapper.classList.add('loader');
@@ -648,28 +654,35 @@
 
               } else {
 
+                // Відключаємо Loader SVG
                 var loaderWrapper = document.querySelector('.form__wrapper-loader');
                 if (loaderWrapper) {
                   loaderWrapper.classList.remove('loader');
                 }
 
+                // Вивід API Error
                 var ApiError = document.querySelector('.api-error');
                 if (ApiError) {
                     ApiError.innerText = res.errors ? res.errors[0] : 'Something error, try again later.'
                   ApiError.classList.add('loader');
                 }
 
+                // Находим всі елементи input на сторінці
                 var inputElements = document.querySelectorAll('input');
+                // Перебираєм елементи і ваидаляєм клас "valid-input"
                 inputElements.forEach(function (inputElement) {
                   inputElement.classList.remove('valid-input');
                 });
 
+                // Находим всі елементи з класом "check-icon"
                 var checkIcons = document.querySelectorAll('.check-icon');
 
+                // Перебираєм найдені елементи та видаляєм атрибут "style"
                 checkIcons.forEach(function (checkIcon) {
                   checkIcon.removeAttribute('style');
                 });
 
+                // Очистка форми
                 var form = document.querySelector('.form-sender');
                 form.reset();
               }

@@ -633,7 +633,7 @@ input, textarea {
 .holder{
 	overflow:hidden;
 	padding:0;
-	background:#fd8704
+/*	background:#fd8704*/
 }
 .holder__container,.holder__content{
 	display:-webkit-box;
@@ -663,6 +663,11 @@ input, textarea {
 	margin:20px 0 0;
 	max-width:320px
 }
+
+.join-p1 {
+	font-size: 20px;
+}
+
 .faq{
 	background:#000;
 }
@@ -850,14 +855,18 @@ input, textarea {
 	text-indent:20px;
 	display:block
 }
-.footer .flex-bl{
+.footer .flex-bl, .footer .flex-bl_about{
 	-webkit-box-orient:vertical;
 	-webkit-box-direction:normal;
 	-ms-flex-direction:column;
 	flex-direction:column
 }
 .footer-top{
-	padding-block:40px
+/*	padding-block:40px;*/
+	padding-top:40px
+}
+.footer b {
+	color: ;
 }
 .footer-top .flex-bl,.terms .title-2{
 	margin-bottom:30px
@@ -891,7 +900,7 @@ input, textarea {
 .footer-bottom{
 	padding-block:12px 30px;
 	border-top:1px solid rgba(255,255,255,.2);
-	background: linear-gradient(45deg, #f041a0, #d340f0);
+	background: linear-gradient(270deg, #f041a0, #d340f0);
 }
 .copyright{
 	font-size:12px;
@@ -903,6 +912,20 @@ input, textarea {
 	color:#fff
 }
 .flex-bl{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-ms-flex-wrap:wrap;
+	flex-wrap:wrap;
+	-webkit-box-align:center;
+	-ms-flex-align:center;
+	align-items:center;
+	-webkit-box-pack:center;
+	-ms-flex-pack:center;
+	justify-content:center;
+	gap:200px
+}
+.flex-bl_about {
 	display:-webkit-box;
 	display:-ms-flexbox;
 	display:flex;
@@ -1085,7 +1108,7 @@ table p+p{
 	.point p{
 		padding:10px 30px
 }
-	.footer .flex-bl{
+	.footer .flex-bl, .footer .flex-bl_about {
 		-webkit-box-orient:horizontal;
 		-webkit-box-direction:normal;
 		-ms-flex-direction:row;
@@ -1100,7 +1123,7 @@ table p+p{
 		order:-1;
 		text-align:left
 }
-	.flex-bl{
+	.flex-bl, .flex-bl_about{
 		-webkit-box-align:center;
 		-ms-flex-align:center;
 		align-items:center;
@@ -1123,8 +1146,8 @@ table p+p{
 	}
 
 	.buttons {
-		display: flex;
-	    justify-content: center;
+		/*display: flex;
+	    justify-content: center;*/
 	}
 	.button {
 		width: 75%;
@@ -1139,7 +1162,7 @@ table p+p{
 	}
 }
 
-@media only screen and (max-width:767px){
+@media only screen and (max-width:767px) {
 	.image-content { display: none; }
 	.stats_sec { justify-content: center; }
 	.content{ 
@@ -1151,15 +1174,18 @@ table p+p{
 	.button { width: 50% }
 	.container_why { flex-direction: column; }
 	.buttons { display: flex; }
-	.get-started, .contact-us { width: 50% }
+	.get-started, .contact-us { width: 100% }
 	.block__hold { margin-bottom: 100px; }
 	.container_faq { flex-direction: column; }
 	.left-section { padding: 0; }
-	.faq_buttons { width: 95%; }
+	.faq_buttons { width: 100%; }
 	.cards_2 { 
 		top: 77%;
 		left: 50%;
 		width: 90%;
+	}
+	.language a {
+		font-size: 15px;
 	}
 	/*.card_2 { 
 		margin-bottom: 5px; 
@@ -1335,7 +1361,8 @@ table p+p{
 }
 	.holder__body{
 		padding:30px 20px 30px 0;
-		width:52%
+		text-align: center;
+/*		width:52%;*/
 }
 	.holder__image{
 		position:relative;
@@ -1440,7 +1467,7 @@ table p+p{
 	}
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:767px){
 	.bg::before {
 	    content: "";
         position: absolute;
@@ -1451,10 +1478,16 @@ table p+p{
         background: rgba(0, 0, 0, 0.5);
         z-index: 0;
 	}
+	.flex-bl {
+		gap: 20px!important;
+	}
 }
 
 @media only screen and (width:768px){
-	.footer_center {
+	.flex-bl {
+		gap: 20px!important;
+	}
+	.footer_center, .footer_center_about {
 		gap: 20px;
 	}
 	.menu__nav {
@@ -1492,7 +1525,7 @@ table p+p{
 	.form__bg {
 		margin: 15px;
 	}
-	.footer_center {
+	.footer_center, .footer_center_about {
 		gap: 50px;
 	}
 	.bg::before{
@@ -1507,7 +1540,7 @@ table p+p{
 	}
 }
 @media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){
-	.bg{
+	.bg, .contact-background {
 		background-image:url("assets/bg.webp")
 	}
 }
